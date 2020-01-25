@@ -1,2 +1,14 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<%= image_tag "oreiller4.jpg", class: "logo" %>
+
+<div class="barremenu">
+<%= link_to "Qui sommes-nous ?", pages_about_path %>
+<%= link_to "Pourquoi nous dormons mal", pages_mauvaissommeil_path %>
+<%= link_to "Nos préconisations", pages_preconisations_path %>
+<%= link_to "Nos rencontres", pages_rencontres_path %>
+<%= link_to "Nous contacter", pages_contact_path %>
+</div>
+
+<div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://res.cloudinary.com/dgz1y7eww/image/upload/v1579890632/sommeil3_n3oxty.jpg)">
+  Bien dormir, un choix de société
+</div>
+
