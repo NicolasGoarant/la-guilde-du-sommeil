@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  get 'home/index'
   get 'pages/contact'
   get 'pages/about'
   get 'pages/mauvaissommeil'

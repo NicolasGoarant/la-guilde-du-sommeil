@@ -43,13 +43,24 @@
 }
 
 .logo {
-  height: 300px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto
+  padding-bottom: 20px;
+  height: auto;
+  width: auto;
+}
+
+
+.logobis {
+  height: 70px;
+  width: 70px;
+    display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
 }
 
 .barremenu {
+  text-decoration: none;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -58,17 +69,31 @@
   padding-top: 20px;
   padding-bottom: 30px;
   font-size: 20px;
-  text-decoration: none;
+  color: red;
+}
+
+.presentation {
+  background-color: white;
+}
+
+.explications {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.homepage {
+  background-color: white;
+}
+
+.homepage h6 {
+padding-left: 20px;
+padding-right: 20px;
+text-align: justify;
+}
+
+.bloc {
+  display: inline-block;
+  vertical-align:middle;
 }
 
 
-.barremenu:hover {
-  color-text: red;
-  text-decoration: none;
-}
-
-
-.barremenu:hover {
-  color-text: red;
-  text-decoration: none;
-}
