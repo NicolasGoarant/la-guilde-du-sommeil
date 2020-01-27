@@ -1,21 +1,29 @@
-<div class="container">
-  <div class="fond">
+<div class="footer">
+  <div class="footer-links">
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+  </div>
+</div>
+
+
+<div class="container col-sm-12">
      <%= link_to pages_home_path do %>
         <div class="row justify-content-center">
-          <%= image_tag "oreiller4.jpg"%>
+            <%= image_tag "oreiller4.jpg"%>
         </div>
      <% end %>
 
       <div class="row">
-        <div class="col-sm-12 text-center col-md-12">
+        <div class="col text-center">
           <h6></b><%= link_to "Qui sommes-nous ?", pages_about_path %><b></h6>
-          <h6></b><%= link_to "Qui sommes-nous ?", pages_about_path %><b></h6>
+          <h6></b><%= link_to "Nos partenaires", pages_partenaires_path %><b></h6>
           <h6></b><%= link_to "Pourquoi nous dormons mal", pages_mauvaissommeil_path %><b></h6>
           <h6></b><%= link_to "Quelques préconisations", pages_preconisations_path %><b></h6>
           <h6></b><%= link_to "Nos rencontres", pages_rencontres_path %><b></h6>
           <h6></b><%= link_to "Nous contacter", pages_contact_path %><b></h6>
         </div>
       </div>
-  </div>
 </div>
 

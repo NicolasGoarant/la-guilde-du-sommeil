@@ -11,6 +11,11 @@ class PagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should get partenaires" do
+    get pages_partenaires_url
+    assert_response :success
+  end
+
   test "should get mauvaissommeil" do
     get pages_mauvaissommeil_url
     assert_response :success
@@ -23,11 +28,6 @@ class PagesControllerTest < ActionDispatch::IntegrationTest
 
   test "should get rencontres" do
     get pages_rencontres_url
-    assert_response :success
-  end
-
-  test "should get home" do
-    get pages_home_url
     assert_response :success
   end
 

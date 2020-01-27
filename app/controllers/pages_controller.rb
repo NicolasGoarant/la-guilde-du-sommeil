@@ -5,6 +5,9 @@ class PagesController < ApplicationController
   def about
   end
 
+  def partenaires
+  end
+
   def mauvaissommeil
   end
 
@@ -12,8 +15,5 @@ class PagesController < ApplicationController
   end
 
   def rencontres
-  end
-
-  def home
   end
 end

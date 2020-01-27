@@ -1,5 +1,12 @@
 Rails.application.routes.draw do
 
+  get 'pages/contact'
+  get 'pages/about'
+  get 'pages/partenaires'
+  get 'pages/mauvaissommeil'
+  get 'pages/preconisations'
+  get 'pages/rencontres'
+  get 'pages/partenaires'
   get 'home/index'
   get 'pages/contact'
   get 'pages/about'
