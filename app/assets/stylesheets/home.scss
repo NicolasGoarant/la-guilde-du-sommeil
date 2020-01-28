@@ -4,12 +4,42 @@
 }
 
 .logobis {
-  height: 70px;
-  width: 70px;
+  height: 80px;
+  width: 80px;
 }
 
 .homepage h6 {
  text-align: justify;
  padding-top: 10px;
  padding-bottom: 10px;
+ background-color: white;
+}
+
+.homepage b {
+ color: #191970;
+}
+
+.logopartenaires {
+float: none;
+margin: 0 auto;
+}
+
+.col-centered {
+display:inline-block;
+float:none;
+text-align: center;
+}
+
+.logoter {
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.partenaires {
+  color: #191970;
+  padding-bottom: 20px;
+}
+
+.btn-outline-primary:hover {
+  color: red;
 }
