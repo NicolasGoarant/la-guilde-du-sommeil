@@ -12,15 +12,16 @@
   padding-bottom: 10px;
   display: flex;
   justify-content: space-evenly;
+  position: sticky;
+  z-index: 100;
 }
 .reseauxsociaux img {
   height: 50px;
   filter: sepia(1);
--webkit-filter: sepia(1);
+filter: opacity(25%);
 }
 
 .reseauxsociaux img:hover {
-
 filter: sepia(0);
 -webkit-filter: sepia(0);
 }
@@ -32,13 +33,37 @@ filter: sepia(0);
 }
 
 .couleur {
-  background-color: white
+  background-color: white;
 }
 
 .homepage {
   background-color: white
 }
 
+.oreiller {
+  height: 250px;
+  width: 300px;
+  align-items: center;
+  padding-bottom: 20px;
+}
 
+.barre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  background-color: #191970;
+  color: white;
+  align-items: center;
+}
+
+.navbarbis {
+  position: sticky;
+  z-index: 100;
+}
 // https://yesyouweb.com/filtres-images-css3/
 
